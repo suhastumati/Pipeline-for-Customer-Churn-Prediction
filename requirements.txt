@@ -1,0 +1,15 @@
+# Data Ingestion Requirements
+# Install these packages for the data ingestion system
+
+# Core dependencies
+pandas>=1.5.0
+requests>=2.28.0
+schedule>=1.2.0
+
+# Optional dependencies
+kaggle>=1.5.12          # For Kaggle dataset ingestion
+python-dotenv>=0.19.0   # For environment variables
+
+# Development and monitoring
+psutil>=5.9.0           # For system monitoring
+watchdog>=2.1.9         # For file system monitoring
